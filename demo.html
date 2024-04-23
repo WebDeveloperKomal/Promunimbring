@@ -15,109 +15,167 @@
 </head>
 
 <body>
+  <div>
   <div class="div">
     <div class="div-2">
       <div class="div-3">
-        <div class="div-4">
-          <div class="div-5">
-            Individual / Salaried
-            <br />
-            Registration
-          </div>
-          <div class="div-6">
-            Register
-            <br />
-            in less than
-            <br />
-            <span style="color: rgba(59, 177, 97, 1)">15 Days</span>
+        <div class="column">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/47152a493dcf2c239cd1bc18bb9376b8ee98d4cc5fb0a08fbd0ee4b3bdcae348?"
+            class="img"
+          />
+        </div>
+        <div class="column-2">
+          <div class="div-4">
+            <div class="div-5">The Best of Both Worlds:</div>
+            <div class="div-6">
+              Face-to-Face Meetings and Digital Solutions with ProMunim
+            </div>
+            <div class="div-7">
+              ProMunim offers a seamless combination of in-person meetings and
+              digital solutions, offering convenience and personalized experiences
+              for cooperation and communication.
+              <br />
+              Contact us today to schedule a meeting and embark on a journey
+              towards enhancing your business's success.
+            </div>
           </div>
         </div>
-        <img
-          loading="lazy"
-          srcset="..."
-          class="img"
-        />
       </div>
-      <div class="div-7"></div>
     </div>
-    <div class="div-8">Learn More</div>
+    <div class="div-8">Register Now</div>
   </div>
+
   <style>
+
     .div {
-      border-radius: 10px;
-      border-color: rgba(59, 177, 97, 1);
-      border-style: solid;
-      border-width: 1px;
-      display: flex;
-      margin-top: 9px;
-      flex-grow: 1;
-      flex-direction: column;
-      font-weight: 700;
-      padding: 7px 9px 13px;
-    }
-    @media (max-width: 991px) {
-      .div {
-        margin-top: 40px;
-      }
-    }
-    .div-2 {
-      border-radius: 7.312px;
-      background-color: #d9d9d9;
+      background-color: rgba(0, 76, 140, 0.1);
       display: flex;
       width: 100%;
       flex-direction: column;
+      padding: 80px 56px 50px;
+    }
+    @media (max-width: 991px) {
+      .div {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    }
+    .div-2 {
+      align-self: start;
+      margin-top: 27px;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        max-width: 100%;
+      }
     }
     .div-3 {
-      align-self: start;
-      z-index: 10;
+      gap: 20px;
       display: flex;
-      gap: 0px;
-      margin: -16px 0 0 18px;
     }
     @media (max-width: 991px) {
       .div-3 {
-        margin-left: 10px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 25%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .img {
+      aspect-ratio: 1.18;
+      object-fit: auto;
+      object-position: center;
+      width: 297px;
+      max-width: 100%;
+      align-self: stretch;
+      margin: auto 0;
+    }
+    @media (max-width: 991px) {
+      .img {
+        margin-top: 40px;
+      }
+    }
+    .column-2 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 75%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-2 {
+        width: 100%;
       }
     }
     .div-4 {
-      align-self: end;
       display: flex;
-      margin-top: 40px;
+      flex-grow: 1;
       flex-direction: column;
-      flex: 1;
+      color: #004c8c;
+      font-weight: 700;
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
     }
     .div-5 {
-      color: #004c8c;
-      text-transform: uppercase;
-      font: 12px Comfortaa, sans-serif;
+      color: #3bb161;
+      font: 55px Comfortaa, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-5 {
+        max-width: 100%;
+        font-size: 40px;
+      }
     }
     .div-6 {
-      color: #3bb161;
-      margin-top: 24px;
-      font: 9px/12px Comfortaa, sans-serif;
+      text-transform: capitalize;
+      margin-top: 29px;
+      font: 28px/132% Comfortaa, sans-serif;
     }
-    .img {
-      aspect-ratio: 0.64;
-      object-fit: auto;
-      object-position: center;
-      width: 142px;
-      max-width: 100%;
+    @media (max-width: 991px) {
+      .div-6 {
+        max-width: 100%;
+      }
     }
     .div-7 {
-      border-radius: 0px 0px 7.312px 7.312px;
-      background-color: #3bb161;
-      height: 97px;
+      margin-top: 42px;
+      font: 500 24px/27px Comfortaa, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-7 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
     }
     .div-8 {
       border-radius: 30px;
-      background-color: #3bb161;
+      background-color: #004b86;
       align-self: center;
-      margin-top: 13px;
+      margin-top: 37px;
+      width: 235px;
+      max-width: 100%;
+      align-items: center;
       color: #fff;
       text-align: center;
       justify-content: center;
-      padding: 10px 35px;
-      font: 14px Comfortaa, sans-serif;
+      padding: 14px 60px;
+      font: 700 16px Comfortaa, sans-serif;
     }
     @media (max-width: 991px) {
       .div-8 {
@@ -126,6 +184,8 @@
     }
   </style>
   
+  
+
 
 </body>
 </html>

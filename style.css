@@ -311,6 +311,7 @@ button.preorder {
     width: 135.58px;
     margin-left: 20%;
 } */
+
 img  {
     margin-top: -48%;
     vertical-align: middle;
@@ -319,6 +320,16 @@ img  {
     width: 110.58px;
     margin-left: 25%;
 }
+
+.img-0  {
+    margin-top: -48%;
+    vertical-align: middle;
+    border-style: none;
+    height: 200.01px;
+    width: 110.58px;
+    margin-left: 35%;
+}
+
 .img1 {
     margin-top: -42%;
     vertical-align: middle;
@@ -326,6 +337,15 @@ img  {
     height: 180.01px;
     width: 135.58px;
     margin-left: 20%;
+}
+
+.img-11 {
+    margin-top: -42%;
+    vertical-align: middle;
+    border-style: none;
+    height: 180.01px;
+    width: 135.58px;
+    margin-left: 30%;
 }
 
 .img2 {
@@ -345,6 +365,41 @@ img  {
     margin-left: 23%;
 }
 
+.img4 {
+    margin-top: -25%;
+    vertical-align: middle;
+    border-style: none;
+    height: 143.01px;
+    width: 115.58px;
+    margin-left: 23%;
+}
+
+.img-4 {
+    margin-top: -25%;
+    vertical-align: middle;
+    border-style: none;
+    height: 143.01px;
+    width: 115.58px;
+    margin-left: 33%;
+}
+
+.img5 {
+    margin-top: -33%;
+    vertical-align: middle;
+    border-style: none;
+    height: 153.01px;
+    width: 125.58px;
+    margin-left: 23%;
+}
+
+.img-5 {
+    margin-top: -33%;
+    vertical-align: middle;
+    border-style: none;
+    height: 153.01px;
+    width: 125.58px;
+    margin-left: 33%;
+}
 
 
 @media (min-width: 1200px) {
